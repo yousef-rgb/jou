@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yousef-rgb.github.io/jou/sitemap.xml

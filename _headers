@@ -1,0 +1,24 @@
+# Netlify / Cloudflare Pages. Hashed build files never change -> cache for a year; pages always revalidate.
+/*.html
+  Cache-Control: no-cache
+/
+  Cache-Control: no-cache
+/ar/*
+  Cache-Control: no-cache
+/assets/*.js
+  Cache-Control: public, max-age=31536000, immutable
+/assets/*.css
+  Cache-Control: public, max-age=31536000, immutable
+/assets/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+/assets/graphic-design/*
+  Cache-Control: public, max-age=2592000
+/assets/certificates/*
+  Cache-Control: public, max-age=2592000
+/assets/conferences/*
+  Cache-Control: public, max-age=2592000
+/assets/documents/*
+  Cache-Control: public, max-age=2592000
+/assets/profile/*
+  Cache-Control: public, max-age=2592000
